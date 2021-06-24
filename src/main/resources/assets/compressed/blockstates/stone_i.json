@@ -1,5 +1,1 @@
-{
-  "variants": {
-    "": { "model": "compressed:block/stone_i" }
-  }
-}
+{"variants": {"": {"model": "compressed:block/stone_i"}}}
