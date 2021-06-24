@@ -151,6 +151,11 @@ public class BlockRegistry {
 	public static final Block COPPER_BLOCK_III = 	registerBlock("copper_block_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(7.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
 	public static final Block COPPER_BLOCK_IV = 	registerBlock("copper_block_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
 
+	public static final Block OXIDIZED_COPPER_I = 	registerBlock("oxidized_copper_i", 		new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(5.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
+	public static final Block OXIDIZED_COPPER_II = 	registerBlock("oxidized_copper_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(6.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
+	public static final Block OXIDIZED_COPPER_III = 	registerBlock("oxidized_copper_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(7.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
+	public static final Block OXIDIZED_COPPER_IV = 	registerBlock("oxidized_copper_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
+
 	public static final Block GOLD_BLOCK_I = 	registerBlock("gold_block_i", 		new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(5.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
 	public static final Block GOLD_BLOCK_II = 	registerBlock("gold_block_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(6.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
 	public static final Block GOLD_BLOCK_III = 	registerBlock("gold_block_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(7.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
@@ -165,8 +170,6 @@ public class BlockRegistry {
 	public static final Block NETHERITE_BLOCK_II = 	registerBlock("netherite_block_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(6.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 	public static final Block NETHERITE_BLOCK_III = registerBlock("netherite_block_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(7.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 	public static final Block NETHERITE_BLOCK_IV = 	registerBlock("netherite_block_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
-
-	//todo oxidized copper
 
 	public static final Block OAK_LOG_I = 	registerBlock("oak_log_i", 		new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD)));
 	public static final Block OAK_LOG_II = 	registerBlock("oak_log_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(3.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD)));
@@ -197,10 +200,6 @@ public class BlockRegistry {
 	public static final Block DARK_OAK_LOG_II = 	registerBlock("dark_oak_log_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(3.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD)));
 	public static final Block DARK_OAK_LOG_III = 	registerBlock("dark_oak_log_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD)));
 	public static final Block DARK_OAK_LOG_IV = 	registerBlock("dark_oak_log_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(5.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD)));
-	
-	//todo crimson stem
-
-	//todo warped stem
 
 	public static final Block LAPIS_BLOCK_I = 	registerBlock("lapis_block_i", 		new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(5.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
 	public static final Block LAPIS_BLOCK_II = 	registerBlock("lapis_block_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.METAL).strength(6.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.METAL)));
@@ -231,7 +230,6 @@ public class BlockRegistry {
 	public static final Block SNOW_BLOCK_II =  registerBlock("snow_block_ii", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(2.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.SNOW)));
 	public static final Block SNOW_BLOCK_III = registerBlock("snow_block_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.SNOW)));
 	public static final Block SNOW_BLOCK_IV =  registerBlock("snow_block_iv", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.SNOW)));
-
 
 	public static final Block CLAY_I =   registerBlock("clay_i", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.6f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block CLAY_II =  registerBlock("clay_ii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.8f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
@@ -273,6 +271,25 @@ public class BlockRegistry {
 	public static final Block SHROOMLIGHT_III = registerBlock("shroomlight_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.AGGREGATE).strength(3.0f).sounds(BlockSoundGroup.SHROOMLIGHT).luminance(15).breakByTool(FabricToolTags.HOES)));
 	public static final Block SHROOMLIGHT_IV = 	registerBlock("shroomlight_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.AGGREGATE).strength(4.0f).sounds(BlockSoundGroup.SHROOMLIGHT).luminance(15).breakByTool(FabricToolTags.HOES)));
 
+	public static final Block NETHER_WART_BLOCK_I =   registerBlock("nether_wart_block_i", 			new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(1.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.WART_BLOCK)));
+	public static final Block NETHER_WART_BLOCK_II =  registerBlock("nether_wart_block_ii", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(2.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.WART_BLOCK)));
+	public static final Block NETHER_WART_BLOCK_III = registerBlock("nether_wart_block_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.WART_BLOCK)));
+	public static final Block NETHER_WART_BLOCK_IV =  registerBlock("nether_wart_block_iv", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.WART_BLOCK)));
+
+	public static final Block CRIMSON_STEM_I = 		registerBlock("crimson_stem_i", 	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.STEM)));
+	public static final Block CRIMSON_STEM_II = 	registerBlock("crimson_stem_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(3.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.STEM)));
+	public static final Block CRIMSON_STEM_III =	registerBlock("crimson_stem_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.STEM)));
+	public static final Block CRIMSON_STEM_IV = 	registerBlock("crimson_stem_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(5.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.STEM)));
+
+	public static final Block WARPED_WART_BLOCK_I =   registerBlock("warped_wart_block_i", 			new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(1.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.WART_BLOCK)));
+	public static final Block WARPED_WART_BLOCK_II =  registerBlock("warped_wart_block_ii", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(2.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.WART_BLOCK)));
+	public static final Block WARPED_WART_BLOCK_III = registerBlock("warped_wart_block_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.WART_BLOCK)));
+	public static final Block WARPED_WART_BLOCK_IV =  registerBlock("warped_wart_block_iv", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.WART_BLOCK)));
+
+	public static final Block WARPED_STEM_I = 	registerBlock("warped_stem_i", 	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.STEM)));
+	public static final Block WARPED_STEM_II = 	registerBlock("warped_stem_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(3.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.STEM)));
+	public static final Block WARPED_STEM_III =	registerBlock("warped_stem_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(4.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.STEM)));
+	public static final Block WARPED_STEM_IV = 	registerBlock("warped_stem_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.WOOD).strength(5.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.STEM)));
 
 	public static final Block BLACKSTONE_I =   registerBlock("blackstone_i", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(2.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
 	public static final Block BLACKSTONE_II =  registerBlock("blackstone_ii", 	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
@@ -283,6 +300,11 @@ public class BlockRegistry {
 	public static final Block NETHER_BRICKS_II = 	registerBlock("nether_bricks_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 	public static final Block NETHER_BRICKS_III = 	registerBlock("nether_bricks_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 	public static final Block NETHER_BRICKS_IV = 	registerBlock("nether_bricks_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(6.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+	public static final Block MAGMA_BLOCK_I = 	registerBlock("magma_block_i", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
+	public static final Block MAGMA_BLOCK_II = 	registerBlock("magma_block_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
+	public static final Block MAGMA_BLOCK_III = registerBlock("magma_block_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
+	public static final Block MAGMA_BLOCK_IV = 	registerBlock("magma_block_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(6.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
 
 	public static final Block MELON_I =   registerBlock("melon_i", 			new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(1.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD)));
 	public static final Block MELON_II =  registerBlock("melon_ii", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(2.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD)));
@@ -314,13 +336,10 @@ public class BlockRegistry {
 	public static final Block DARK_PRISMARINE_III = registerBlock("dark_prismarine_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
 	public static final Block DARK_PRISMARINE_IV = 	registerBlock("dark_prismarine_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(6.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
 
-	//todo sea lantern
-
-	//todo magma block
-
-	//todo nether wart block
-
-	//todo warped wart block
+	public static final Block SEA_LANTERN_I = 	registerBlock("sea_lantern_i", 		new CompressedBlock(FabricBlockSettings.of(Material.GLASS).strength(1.0f).sounds(BlockSoundGroup.GLASS).luminance(15)));
+	public static final Block SEA_LANTERN_II = 	registerBlock("sea_lantern_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.GLASS).strength(2.0f).sounds(BlockSoundGroup.GLASS).luminance(15)));
+	public static final Block SEA_LANTERN_III = registerBlock("sea_lantern_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.GLASS).strength(3.0f).sounds(BlockSoundGroup.GLASS).luminance(15)));
+	public static final Block SEA_LANTERN_IV = 	registerBlock("sea_lantern_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.GLASS).strength(4.0f).sounds(BlockSoundGroup.GLASS).luminance(15)));
 
 	public static final Block BONE_BLOCK_I = 	registerBlock("bone_block_i", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.BONE)));
 	public static final Block BONE_BLOCK_II = 	registerBlock("bone_block_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.BONE)));
@@ -347,6 +366,10 @@ public class BlockRegistry {
 	public static final Block SLIME_BLOCK_III = registerBlock("slime_block_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).sounds(BlockSoundGroup.SLIME).breakInstantly()));
 	public static final Block SLIME_BLOCK_IV = 	registerBlock("slime_block_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(6.0f).sounds(BlockSoundGroup.SLIME).breakInstantly()));
 
+	public static final Block HONEY_BLOCK_I = 	registerBlock("honey_block_i", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).sounds(BlockSoundGroup.SLIME).breakInstantly()));
+	public static final Block HONEY_BLOCK_II = 	registerBlock("honey_block_ii",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).sounds(BlockSoundGroup.SLIME).breakInstantly()));
+	public static final Block HONEY_BLOCK_III = registerBlock("honey_block_iii", 	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(5.0f).sounds(BlockSoundGroup.SLIME).breakInstantly()));
+	public static final Block HONEY_BLOCK_IV = 	registerBlock("honey_block_iv",   	new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(6.0f).sounds(BlockSoundGroup.SLIME).breakInstantly()));
 
 
 

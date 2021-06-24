@@ -25,7 +25,7 @@ public class CompressedBlock extends Block{
     @Override
     public void appendTooltip(ItemStack itemStack, BlockView world, List<Text> tooltip, TooltipContext tooltipContext) {
         if(Screen.hasShiftDown()){
-            tooltip.add( new LiteralText(blockSize + blockName));
+            tooltip.add( new LiteralText(blockSize + blockName).formatted(Formatting.ITALIC, Formatting.GRAY));
         } else {
             tooltip.add(new LiteralText("Hold Shift").formatted(Formatting.ITALIC, Formatting.GRAY));
         }

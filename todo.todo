@@ -9,8 +9,8 @@ Blocks to add:
         ✔ nether brick @done(21-06-23 19:46)
         ✔ glowstone @done(21-06-23 14:36)
         ✔ quartz @done(21-06-23 23:02)
-        ☐ magma block
-        ☐ wart blocks
+        ✔ magma block @done(21-06-24 10:24)
+        ✔ wart blocks @done(21-06-24 10:24)
         ✔ bone @done(21-06-23 14:56)
         ✔ kelp @done(21-06-23 16:48)
         ✔ coarse dirt @done(21-06-23 14:59)
@@ -18,19 +18,19 @@ Blocks to add:
         ✔ prismarine @done(21-06-23 21:17)
         ✔ shroomlight @done(21-06-23 15:24)
         ✔ slimeblock @done(21-06-23 21:04)
-        ☐ honey block
+        ✔ honey block @done(21-06-24 10:24)
         ☐ ore blocks
         ☐ leaf blocks
         ✔ obsidian @done(21-06-23 15:30)
         ✔ clay @done(21-06-23 15:30)
         ☐ terrracotta
-        ☐ crimson stem
-        ☐ warped stem
-        ☐ sea lantern
+        ✔ crimson stem @done(21-06-24 10:24)
+        ✔ warped stem @done(21-06-24 10:24)
+        ✔ sea lantern @done(21-06-24 10:24)
     new blocks:
         ✔ Raw ore blocks @done(21-06-23 23:02)
         ✔ Copper @done(21-06-23 23:03)
-        ☐ oxidized copper block
+        ✔ oxidized copper block @done(21-06-24 11:10)
         ✔ deepslate/cobbled deepslate @done(21-06-23 23:03)
         ✔ calcite @done(21-06-23 23:03)
         ✔ tuff @done(21-06-23 23:03)
@@ -38,10 +38,15 @@ Blocks to add:
         ✔ amythyst @done(21-06-23 14:59)
         ✔ moss @done(21-06-23 16:48)
 
+Other:
+    ☐ Make new icon
+        
+
 Add Fucntionality:
     ☐ Redstone output on redstone block
 
 think about:
     ☐ wool types
-    Metal Blocks work with beacon
+    ☐ Metal Blocks work with beacon
+    ☐ Bundled Items into blocks
     
