@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "compressed",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Compressed Mod",
+  "description": "This mod adds compressed variants of your favorite blocks!",
   "authors": [
-    "Me!"
+    "Nick Schell (Nibaru)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Nibaru/Compressed-Fabric",
+    "sources": "https://github.com/Nibaru/Compressed-Fabric"
   },
 
   "license": "CC0-1.0",

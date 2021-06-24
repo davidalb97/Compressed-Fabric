@@ -390,28 +390,4 @@ public class BlockRegistry {
 		ItemRegistry.registerItem(name, new BlockItem(compressedBlock, settings));
 		return compressedBlock;
 	}
-
-	/*
-	public static Block registerBlock(String name, CompressedBlock compressedBlock) {
-		//if (Configs.BLOCKS.getBoolean("blocks", name, true)) {
-			compressedBlock.setName(name);
-			registerBlockDirectly(name, compressedBlock);
-		//}
-		BLOCKS.add(name);
-		return compressedBlock;
-	}
-
-    public static Block registerBlockNI(String name, Block block) {
-		if (Configs.BLOCKS.getBoolean("blocks", name, true)) {
-			Registry.register(Registry.BLOCK, new Identifier(Compressed.MOD_ID, name), block);
-		}
-		BLOCKS.add(name);
-		return block;
-	}*/
-
-	private static void registerBlockDirectly(String name, Block compressedBlock) {
-		Registry.register(Registry.BLOCK, new Identifier(Compressed.MOD_ID, name), compressedBlock);
-		Item.Settings settings = new Item.Settings().group(Compressed.COMPRESSED_GROUP);
-		ItemRegistry.registerItem(name, new BlockItem(compressedBlock, settings));
-	}
 }
