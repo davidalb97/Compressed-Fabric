@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["###", "###", "###"], "key": {"#": {"item": "compressed:nether_brick_iii"}}, "result": {"item": "compressed:nether_brick_iv", "count": 1}}

@@ -1,0 +1,47 @@
+Finish adding currently supported blocks:
+    ✔ Set hardness @done(21-06-23 12:55)
+    ✔ []Set Sounds @done(21-06-23 16:15)
+
+
+Blocks to add:
+    missed Blocks:
+        ✔ All Wood Types @done(21-06-23 16:49)
+        ✔ nether brick @done(21-06-23 19:46)
+        ✔ glowstone @done(21-06-23 14:36)
+        ✔ quartz @done(21-06-23 23:02)
+        ☐ magma block
+        ☐ wart blocks
+        ✔ bone @done(21-06-23 14:56)
+        ✔ kelp @done(21-06-23 16:48)
+        ✔ coarse dirt @done(21-06-23 14:59)
+        ✔ mossy cobble @done(21-06-23 15:02)
+        ✔ prismarine @done(21-06-23 21:17)
+        ✔ shroomlight @done(21-06-23 15:24)
+        ✔ slimeblock @done(21-06-23 21:04)
+        ☐ honey block
+        ☐ ore blocks
+        ☐ leaf blocks
+        ✔ obsidian @done(21-06-23 15:30)
+        ✔ clay @done(21-06-23 15:30)
+        ☐ terrracotta
+        ☐ crimson stem
+        ☐ warped stem
+        ☐ sea lantern
+    new blocks:
+        ✔ Raw ore blocks @done(21-06-23 23:02)
+        ✔ Copper @done(21-06-23 23:03)
+        ☐ oxidized copper block
+        ✔ deepslate/cobbled deepslate @done(21-06-23 23:03)
+        ✔ calcite @done(21-06-23 23:03)
+        ✔ tuff @done(21-06-23 23:03)
+        ✔ rooted dirt @done(21-06-23 14:59)
+        ✔ amythyst @done(21-06-23 14:59)
+        ✔ moss @done(21-06-23 16:48)
+
+Add Fucntionality:
+    ☐ Redstone output on redstone block
+
+think about:
+    ☐ wool types
+    Metal Blocks work with beacon
+    

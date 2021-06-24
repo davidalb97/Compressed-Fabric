@@ -1,0 +1,38 @@
+Version 1.3
+========================
+Whats new?
+    1.17 Update!
+        Added compressde variants of new 1.17 blocks
+            -Deepslate
+            -Cobbled Deepslate
+            -Calcite
+            -Tuff
+            -Dripstone Block
+            -Moss Block
+            -Rooted dirt
+            -Raw Iron
+            -Raw Copper
+            -Raw Gold
+            -Amythyst
+            -Copper Block
+
+    Fabric Support
+        Created a Fabric version of the mod!
+    More Blocks
+        Added Compressed Variants of more blocks including:
+            -All Wood Types
+            -Clay
+            -Obsidian
+            -Mossy Cobblestone
+            -Glowstone
+            -Shroomlight
+            -Nether bricks
+            -Prismarine
+            -Dark Prismarine
+            -Bone Block
+            -Quartz
+            -Dried Kelp
+            -Slime Block
+            -coarse dirt
+
+
