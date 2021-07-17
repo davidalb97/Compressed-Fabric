@@ -61,7 +61,7 @@ public class BlockRegistry {
 
 	public static final Block MOSS_BLOCK_I =   registerBlock("moss_block_i", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.6f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.MOSS_BLOCK)));
 	public static final Block MOSS_BLOCK_II =  registerBlock("moss_block_ii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.8f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.MOSS_BLOCK)));
-	public static final Block MOSS_BLOCK_III = registerBlock("moss_block_iii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.MOSS_BLOCK)));
+	public static final Block MOSS_BLOCK_III = registerBlock("moss_block_iii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.MOSS_BLOCK)));
 	public static final Block MOSS_BLOCK_IV =  registerBlock("moss_block_iv", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.2f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.MOSS_BLOCK)));
 
 	public static final Block GRASS_BLOCK_I =   registerBlock("grass_block_i", 				new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.7f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRASS)));
@@ -71,12 +71,12 @@ public class BlockRegistry {
 
 	public static final Block DIRT_I =   registerBlock("dirt_i", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.6f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block DIRT_II =  registerBlock("dirt_ii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.8f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
-	public static final Block DIRT_III = registerBlock("dirt_iii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
+	public static final Block DIRT_III = registerBlock("dirt_iii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block DIRT_IV =  registerBlock("dirt_iv", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.2f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 
 	public static final Block COARSE_DIRT_I =   registerBlock("coarse_dirt_i", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.6f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block COARSE_DIRT_II =  registerBlock("coarse_dirt_ii", 		new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.8f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
-	public static final Block COARSE_DIRT_III = registerBlock("coarse_dirt_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
+	public static final Block COARSE_DIRT_III = registerBlock("coarse_dirt_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block COARSE_DIRT_IV =  registerBlock("coarse_dirt_iv", 		new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.2f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 
 	public static final Block PODZOL_I =   registerBlock("podzol_i", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.7f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRASS)));
@@ -86,7 +86,7 @@ public class BlockRegistry {
 
 	public static final Block ROOTED_DIRT_I =   registerBlock("rooted_dirt_i", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.6f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block ROOTED_DIRT_II =  registerBlock("rooted_dirt_ii", 		new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.8f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
-	public static final Block ROOTED_DIRT_III = registerBlock("rooted_dirt_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
+	public static final Block ROOTED_DIRT_III = registerBlock("rooted_dirt_iii", 		new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block ROOTED_DIRT_IV =  registerBlock("rooted_dirt_iv", 		new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.2f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 
 	public static final Block COBBLESTONE_I = 	registerBlock("cobblestone_i", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
@@ -233,7 +233,7 @@ public class BlockRegistry {
 
 	public static final Block CLAY_I =   registerBlock("clay_i", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.6f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block CLAY_II =  registerBlock("clay_ii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.8f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
-	public static final Block CLAY_III = registerBlock("clay_iii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
+	public static final Block CLAY_III = registerBlock("clay_iii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.0f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block CLAY_IV =  registerBlock("clay_iv", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.2f).breakByTool(FabricToolTags.SHOVELS).sounds(BlockSoundGroup.GRAVEL)));
 
 	public static final Block PUMPKIN_I =   registerBlock("pumpkin_i", 			new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(1.0f).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD)));
@@ -348,7 +348,7 @@ public class BlockRegistry {
 
 	public static final Block DRIED_KELP_I =   registerBlock("dried_kelp_i", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.6f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block DRIED_KELP_II =  registerBlock("dried_kelp_ii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.8f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.GRAVEL)));
-	public static final Block DRIED_KELP_III = registerBlock("dried_kelp_iii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(0.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.GRAVEL)));
+	public static final Block DRIED_KELP_III = registerBlock("dried_kelp_iii", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.0f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.GRAVEL)));
 	public static final Block DRIED_KELP_IV =  registerBlock("dried_kelp_iv", 			new CompressedBlock(FabricBlockSettings.of(Material.SOIL).strength(1.2f).breakByTool(FabricToolTags.HOES).sounds(BlockSoundGroup.GRAVEL)));
 
 	public static final Block QUARTZ_BLOCK_I = 	registerBlock("quartz_block_i", 		new CompressedBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.STONE)));
